@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Ab3d.PowerToys/10.0.8000": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Ab3d.PowerToys.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ab3d.PowerToys.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ab3d.PowerToys/10.0.8000": {
+      "sha512": "jJ/2NeX42Vox7gOt36vHdbCIXGI7R4CV54+yBO7K3Y8ra16Mb3o29jbvjG4j1m0y84K5HYsAg5fwAjP+YxuU4g==",
+      "type": "package",
+      "path": "ab3d.powertoys/10.0.8000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ab3d.powertoys.10.0.8000.nupkg.sha512",
+        "ab3d.powertoys.nuspec",
+        "icon.png",
+        "lib/net40/Ab3d.PowerToys.dll",
+        "lib/net40/Ab3d.PowerToys.xml",
+        "lib/net45/Ab3d.PowerToys.dll",
+        "lib/net45/Ab3d.PowerToys.xml",
+        "lib/net5.0-windows7.0/Ab3d.PowerToys.dll",
+        "lib/net5.0-windows7.0/Ab3d.PowerToys.xml",
+        "lib/net6.0-windows7.0/Ab3d.PowerToys.dll",
+        "lib/net6.0-windows7.0/Ab3d.PowerToys.xml",
+        "lib/netcoreapp3.1/Ab3d.PowerToys.dll",
+        "lib/netcoreapp3.1/Ab3d.PowerToys.xml",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Ab3d.PowerToys >= 10.0.8000"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tom Som\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Tom Som\\Desktop\\testehugo\\testehugo2\\testehugo2\\testehugo2.csproj",
+      "projectName": "testehugo2",
+      "projectPath": "C:\\Users\\Tom Som\\Desktop\\testehugo\\testehugo2\\testehugo2\\testehugo2.csproj",
+      "packagesPath": "C:\\Users\\Tom Som\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tom Som\\Desktop\\testehugo\\testehugo2\\testehugo2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Tom Som\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Ab3d.PowerToys": {
+            "target": "Package",
+            "version": "[10.0.8000, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

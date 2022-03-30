@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "testehugo2/1.0.0": {
+        "dependencies": {
+          "Ab3d.PowerToys": "10.0.8000"
+        },
+        "runtime": {
+          "testehugo2.dll": {}
+        }
+      },
+      "Ab3d.PowerToys/10.0.8000": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Ab3d.PowerToys.dll": {
+            "assemblyVersion": "10.0.8000.2060",
+            "fileVersion": "10.0.8000.2060"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "testehugo2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ab3d.PowerToys/10.0.8000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jJ/2NeX42Vox7gOt36vHdbCIXGI7R4CV54+yBO7K3Y8ra16Mb3o29jbvjG4j1m0y84K5HYsAg5fwAjP+YxuU4g==",
+      "path": "ab3d.powertoys/10.0.8000",
+      "hashPath": "ab3d.powertoys.10.0.8000.nupkg.sha512"
+    }
+  }
+}
